@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal class Square
+     class Square : Polygon
     {
+        public float Size { get; set; }
+
+        public Square(float size)
+        {
+            Size = size;
+            NumberOfSides= 4;
+
+            Console.WriteLine("The sides of the square are "+ Size);
+        }
     }
 }
