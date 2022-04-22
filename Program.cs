@@ -9,7 +9,7 @@ namespace Inheritance
         {
             //Polygon polygon = new Polygon(5);
             //Square square = new Square(4.5f);
-            
+
             /*
             Polygon polygon = new Square(4.5f);
 
@@ -24,6 +24,7 @@ namespace Inheritance
             */
 
             //The AS keyword
+            /*
             Polygon polygon = new Square(4);
             Square square = polygon as Square;
 
@@ -31,6 +32,13 @@ namespace Inheritance
             {
                 Console.WriteLine("Square is not null");
             }
+            */
+
+            //Using Inheritance in Arrays
+            Polygon[] lotsOfPolygon = new Polygon[5];
+            lotsOfPolygon[2] = new Square(2.1f);
+            //lotsOfPolygon[3] = new Triangle();
+            Console.WriteLine(lotsOfPolygon[1]);
             
 
         }
