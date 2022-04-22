@@ -7,7 +7,7 @@ namespace Inheritance
     {
         static void Main()
         {
-            //Polygon polygon = new Polygon(5);
+            Polygon polygon = new Polygon(5);
             //Square square = new Square(4.5f);
 
             /*
@@ -35,10 +35,12 @@ namespace Inheritance
             */
 
             //Using Inheritance in Arrays
+            /*
             Polygon[] lotsOfPolygon = new Polygon[5];
             lotsOfPolygon[2] = new Square(2.1f);
             //lotsOfPolygon[3] = new Triangle();
             Console.WriteLine(lotsOfPolygon[1]);
+            */
             
 
         }
@@ -52,7 +54,7 @@ namespace Inheritance
         {
             NumberOfSides = numberOfSides;
 
-            //Console.WriteLine(NumberOfSides);
+            Console.WriteLine(NumberOfSides);
         }
     }
 }

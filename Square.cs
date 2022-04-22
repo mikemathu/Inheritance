@@ -10,7 +10,7 @@ namespace Inheritance
     {
         public float Size { get; set; }
 
-        public Square(float size)
+        public Square(float size) : base(4)//Use the Polygon(int numberOfSides) constructor in the base class
         {
             Size = size;
             NumberOfSides= 4;
